@@ -1,4 +1,7 @@
 package adapter;
 
-public class ModernMessageSender {
+// Target Interface
+
+interface ModernMessageSender {
+    void sendMessage(String message, String recipient);
 }
