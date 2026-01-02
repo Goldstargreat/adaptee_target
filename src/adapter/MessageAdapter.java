@@ -3,7 +3,7 @@ package adapter;
 import oldSystem.OldMessageSender;
 
 // Adapter
-class MessageAdapter implements ModernMessageSender{
+public class MessageAdapter implements ModernMessageSender{
     private OldMessageSender oldSystem;
 
     public MessageAdapter(OldMessageSender oldSystem){

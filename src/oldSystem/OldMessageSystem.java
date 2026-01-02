@@ -1,7 +1,7 @@
 package oldSystem;
 
 // Concrete Adaptee
-class OldMessageSystem implements OldMessageSender{
+public class OldMessageSystem implements OldMessageSender{
     @Override
     public int send(String[] messageData){
         System.out.println(

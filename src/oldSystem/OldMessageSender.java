@@ -1,6 +1,6 @@
 package oldSystem;
 
 // Adaptee Interface
-interface OldMessageSender {
+public interface OldMessageSender {
     int send(String[] messageData);
 }
